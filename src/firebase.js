@@ -1,16 +1,14 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCMh678yYIU2sOODl6AXXVJr_27jvDLnpk",
-  authDomain: "tik-tok-clone-eb635.firebaseapp.com",
-  databaseURL: "https://tik-tok-clone-eb635.firebaseio.com",
-  projectId: "tik-tok-clone-eb635",
-  storageBucket: "tik-tok-clone-eb635.appspot.com",
-  messagingSenderId: "602358408631",
-  appId: "1:602358408631:web:a32f1830ccc2d942f2f432",
-  measurementId: "G-38YHL3X30F",
+  apiKey: "AIzaSyCsjbEaLhZAeDvZvA5rzVdygJM8yN7eBwQ",
+  authDomain: "cz-tiktok-clone.firebaseapp.com",
+  databaseURL: "https://cz-tiktok-clone.firebaseio.com",
+  projectId: "cz-tiktok-clone",
+  storageBucket: "cz-tiktok-clone.appspot.com",
+  messagingSenderId: "866516570903",
+  appId: "1:866516570903:web:8cd71ffdcaa9207bfddd52",
 };
-
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 const db = firebaseApp.firestore();
